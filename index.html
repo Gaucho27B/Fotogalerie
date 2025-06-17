@@ -1,1 +1,101 @@
-<h1>Bananenboot</h1>
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotogalerie</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async></script>
+    <link rel="icon" type="image/x/icon" href="img/favicon.png">
+  </head>
+  <body>
+    <svg id="Kamara"
+    width="100"
+    height="100"
+    viewBox="0 0 100 100">
+
+    <rect
+        x="10"
+        y="30"
+        width="80"
+        height="50"
+        rx="15"
+        ry="10"
+        fill="#56070C" />
+    <rect
+        x="37.5"
+        y="12"
+        width="35"
+        height="20"
+        rx="10"
+        ry="5"
+        fill="#56070C" />
+     <rect
+        x="45"
+        y="17"
+        width="20"
+        height="7"
+        rx="4"
+        ry="1"
+        fill="#fff" />
+    <circle
+        cx="55"
+        cy="55"
+        r="15"
+        fill="#fff" />
+    <circle
+        cx="55"
+        cy="55"
+        r="12"
+        fill="#56070C" />
+    <rect
+        x="30"
+        y="40"
+        width="2"
+        height="35"
+        ry="5"
+        fill="#fff" />
+    
+</svg>
+
+    <h1 id="chapter-heading1">Fotogalerie</h1>
+    <h1 class="chapter-heading2">Vision dieser Webseite</h1>
+    <div class="description-text"> 
+      Mit dieser Webseite möchte ich jungen Fotografen am Gymnasium Muttenz eine Fläche bieten, in der sie ihre Kunst präsentieren können. Momentan sind Fotos von Keani Barbazza und Flurin Berweger auf dieser Webseite. Die Fotografien, sowie dazugehörige Informationen können hier eingesehen werden.
+    </div>
+   
+    <div>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+         <img id="myImg" src="img/Silhouetten.JPG" alt=" Echoes of sight<br>by Flurin Berweger" style="width:100%;max-width:400px" onclick="openModal(this)">
+      </div>
+      <div class="column">
+        <img id="myImg" src="img/Kreuz.JPG" alt="Crested Cross <br>by Flurin Berweger" style="width:100%;max-width:400px"  onclick="openModal(this)">
+     </div>
+      <div class="column">
+        <img id="myImg" src="img/Abendrot.JPG" alt="Evening Serenity <br>by Flurin Berweger" style="width:100%;max-width:400px"  onclick="openModal(this)">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img id="myImg" src="img/Schiffchen.jpg" alt="Sail <br>by Keani Barbazza" style="width:100%;max-width:400px"  onclick="openModal(this)">
+      </div>
+      <div class="column">
+        <img id="myImg" src="img/Lampe.jpg" alt="Don't fix the broken <br>by Keani Barbazza" style="width:100%;max-width:400px"  onclick="openModal(this)">
+      </div>
+      <div class="column">
+        <img id="myImg" src="img/Spinne.jpg" alt="The small things <br>by Keani Barbazza" style="width:100%;max-width:400px"  onclick="openModal(this)">
+      </div>
+    </div>
+<h1 class="chapter-heading2">Kontakt</h1>
+<p class="description-text">Falls sie selbst fotografieren und Ihre Werke auf dieser Webseite ausstellen möchten, können Sie mich unter folgenden Kontaktdaten erreichen: </p>
+<p id="kontakt">Flurin Berweger<br> e263225@edu.sbl.ch <br> 0767367249</p>
+    </div>  
+</body>
+</html>
